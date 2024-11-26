@@ -47,6 +47,7 @@ background-color: orangered;
 grid-column: 2;
 grid-row: 2 / 6;
 background-color: skyblue;
+
 }
 
 .six {
@@ -112,4 +113,3 @@ p:hover {
  background-color: rgb(87, 83, 83);
  transition: all 0.3s ease;
 }
-
