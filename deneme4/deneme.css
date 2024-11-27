@@ -93,7 +93,7 @@ li a {
 
 li a:hover {
   background-color: rgb(135, 19, 212);
-  border-radius: 8px;
+  border-radius: 10px;
   transition: all 0.7s ease;
 }
 
