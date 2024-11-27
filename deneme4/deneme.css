@@ -101,6 +101,7 @@ li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 5px 5px;
 }
 
 p {
@@ -108,7 +109,7 @@ p {
 }
 
 p:hover {
- padding: 5px 5px;
+ 
  border-radius: 8px;
  background-color: rgb(87, 83, 83);
  transition: all 0.3s ease;
