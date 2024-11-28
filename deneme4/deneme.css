@@ -55,6 +55,7 @@ position: relative;
   object-fit: cover;
   height: 100%;
   width: 100%;
+  transition: transform .4s;
 }
 
 .one {
@@ -99,6 +100,7 @@ nav {
 li {
   float: left;
   list-style-type: none;
+  
 }
 
 li a {
@@ -108,14 +110,17 @@ li a {
   padding: 16px 36px;
   text-decoration: none;
   font-size: 20px;
-  
-  
+
 }
 
+
+
 li a:hover {
-  background-color: rgb(135, 19, 212);
+  background-color: black;
   border-radius: 10px;
-  transition: all 0.7s ease;
+  color: mediumpurple;
+  transition: all 0.4s ease-in;
+
 }
 
 .text {
@@ -133,7 +138,7 @@ padding: 20px 20px;
 }
 
 h1 {
-font-size: 6ch;
+font-size: 7ch;
 height: 75%;
 display: flex;
 align-items: flex-end;
@@ -159,11 +164,11 @@ input[type="button"] {
   border-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
   margin: auto;
-  transition: transform .2s;
+  transition: transform .4s;
 }
 
 input[type="button"]:hover {
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
   background-color: black;
   color: mediumpurple;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
@@ -172,6 +177,9 @@ input[type="button"]:hover {
   border-color: mediumpurple;
 }
 
+#logo:hover {
+  transform: scale(1.3);
+}
 
 
 
