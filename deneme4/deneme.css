@@ -228,6 +228,8 @@ input[type="button"]:hover {
   transform: none;
   transition: all 0.3 ease;
 }
-
+#logo:hover{
+  transform: none;
+}
 
 }
